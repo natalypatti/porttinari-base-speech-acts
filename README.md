@@ -7,6 +7,16 @@ This repository presents the corpus and codes presented by the paper "Bringing P
 - results: Presents all .csv with results from executions of the Finetuning_BERTimbau_paper.ipynb notebook on the validation and test bases. These are the same results presented in the paper
 - Finetuning_BERTimbau_paper.ipynb: notebook that performs BERTimbau finetuning
 
+## Experiments
+
+- Env: to run the experiments we used Google Colab with GPUs. You just need to upload your notebook to Google Colab to run it.
+- Dependencies: considering the Google Colab environment, it is only necessary to install the transformer
+-     pip install transformers
+
+## Dataset
+- The dataset is in csv format, to access it in python:
+-     df = pd.read_csv(r'data/porttinari-annotated-sample-paper-v1-20231211.csv')
+
 ## How to cite this work
 
     
