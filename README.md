@@ -14,7 +14,10 @@ This repository presents the corpus and codes presented by the paper "Bringing P
 -     pip install transformers
 
 ## Dataset
-- The dataset is in csv format, to access it in python:
+How to access the dataset:
+- download csv file in 'data' folder
+- upload the file to tools such as Excel, LibreOffice, Google Sheets
+To access it in python:
 -     df = pd.read_csv(r'data/porttinari-annotated-sample-paper-v1-20231211.csv')
 
 ## How to cite this work
